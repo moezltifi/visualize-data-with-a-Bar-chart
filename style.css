@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  background-color: #f9f9f9;
+}
+.bar {
+  fill: steelblue;
+}
+.bar:hover {
+  fill: orange;
+}
+.tick text {
+  font-size: 12px;
+}
+#tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  visibility: hidden;
+  pointer-events: none;
+}
